@@ -2,6 +2,5 @@
   "name": "campus-fn",
   "version": "0.1.0",
   "main": "server.js",
-  "type": "commonjs",
-  "scripts": { "start": "node server.js" }
+  "type": "commonjs"
 }

@@ -9,3 +9,4 @@ Contributeur : SAUTHIER Emeric
 ![Split traffic](Preuve_split_traffic.png)
 
 ## Orchestration event-driven
+![Ping and log every minute](Log_every_minute.png)
