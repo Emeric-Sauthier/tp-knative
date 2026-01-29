@@ -2,11 +2,17 @@
 
 Contributeur : SAUTHIER Emeric
 
-## "Serverless réel" (scale to zero)
-![Scale to zero](Verif_serverless_scale-to-zero.png)
+## Résultat : kind get clusters
+![kind get clusters](image.png)
 
-## Orchestration déploiement (traffic splitting)
-![Split traffic](Preuve_split_traffic.png)
+## Résultat : kn service list
+![kn service list](image-1.png)
 
-## Orchestration event-driven
-![Ping and log every minute](Log_every_minute.png)
+## Résultat : kn revisions list --service campus-fn
+![kn revisions list --service campus-fn](image-2.png)
+
+## Preuve du split
+![Preuve du split](image-3.png)
+
+## Logs prouvant PingSource => Broker => Trigger => Service
+![Logs prouvant PingSource => Broker => Trigger => Service](image-4.png)
